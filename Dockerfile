@@ -1,4 +1,4 @@
-FROM java:7-jre-alpine
+FROM java:8-jre-alpine
 
 RUN apk update && \
     apk --no-cache add \
